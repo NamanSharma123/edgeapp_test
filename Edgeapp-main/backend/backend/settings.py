@@ -103,7 +103,10 @@ CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'http://localhost:5173',  # Add this for Vite dev server
     'http://127.0.0.1:3000',
+    'http://127.0.0.1:5173',  # Add this too
+    'http://127.0.0.1:8000',  # Add this for same-origin
     'http://193.203.163.243',
     'http://193.203.163.243:8080',
     'http://193.203.163.243:3000',
